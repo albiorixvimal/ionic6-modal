@@ -1,0 +1,7 @@
+{
+  "name": "ionic6-modal",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
