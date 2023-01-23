@@ -23,6 +23,9 @@
         <ion-item>
           <ion-label position="stacked">Enter your name</ion-label>
           <ion-input type="text" placeholder="Your name" [(ngModel)]="name"></ion-input>
+          <ion-buttons slot="end">
+            <ion-button (click)="confirm()" [strong]="true">Test</ion-button>
+          </ion-buttons>
         </ion-item>
       </ion-content>
     </ng-template>
